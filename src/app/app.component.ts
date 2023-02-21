@@ -7,8 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pipes';
-  tday=new Date();
-  amt=220;
-  content="Format Text,Date & Currency & Create Custom Pipes in TypeScript";
-  per=98.45332;
+ 
 }

@@ -1,0 +1,15 @@
+<h5>Date and time</h5>
+<p>Today date:{{tday}}</p>
+<p>Today date:{{tday | date:'short'}}</p>
+<p>Today date:{{tday | date:'dd/MM/YYYY hh:mm:ss aa'}}</p>
+<h5>slice </h5>
+<p>{{content | slice:0:20}}</p>
+<h5>currency converter</h5>
+<p>Default currency dollar : {{amt | currency:''}}</p>
+<p>indian currency : {{amt|currency:"INR"}}</p>
+<p>Percentage {{per | number:'1.2-2'}}</p>
+<p>cube {{9 | custompipe}}</p>
+<h5>Upper & Lower case</h5>
+<p>Lower Case:: {{content | lowercase}}</p>
+<p>Upper Case:: {{content | uppercase}}</p>
+<a [routerLink]="['/inopdecorator']">Input and output decorator</a>
